@@ -1,0 +1,13 @@
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.flash {
+  padding: 10px;
+  background-color: #FFFF99;
+}
+
+.inline {
+  display: inline;
+}

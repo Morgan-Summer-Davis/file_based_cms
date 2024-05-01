@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMS</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/stylesheets/application.css">
+</head>
+<body>
+  <%= "<p class=\"flash\">#{session.delete(:flash)}</p>" if session[:flash] %>
+  <%= yield %>
+</body>
+</html>
